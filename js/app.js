@@ -49,7 +49,7 @@ no.addEventListener("click", () => {
     count++;
   } else if (count == 5) {
     gif.src = "./gif/this.gif";// gif credit: https://tenor.com/view/cat-gif-10173437195524493032
-    text.innerHTML = "This could be us yunno😉😘";
+    text.innerHTML = "This could be us yunno😉😘. So just say yes😘";
     text2.innerHTML = "Fine boy😩, wait and reason am first";
     yes.style.height = "70%";
     yes.style.width = "80%";
@@ -60,7 +60,7 @@ no.addEventListener("click", () => {
 // changes for when YES button is clicked
 yes.addEventListener("click", () => {
   vid.style.display = "block";
-  gif.src = "./resources/idc.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
+  gif.src = "./gif/kiss.gif";// gif credit: https://tenor.com/view/peach-cat-kiss-animated-love-mwah-gif-25743978
   text.innerHTML = " I love youuuuuu 😘";
   text2.innerHTML = "Yayyyy. Fine boyy";
   yes.innerHTML = '<a href="https://wa.me/2349061429741/">Message me</a>';// inside the " " put your social media profile link
